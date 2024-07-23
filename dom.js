@@ -14,19 +14,19 @@
 {
     let elm = document.getElementsByTagName('p')[0]
     function textBlue() {
-        elm.style.color = 'blue'
+        elm.style.color = 'purple'
     }
     function textRed() {
         elm.style.color = 'red'
     }
     function textGreen() {
-        elm.style.color = 'Green'
+        elm.style.color = 'green'
     }
     function textViolet() {
-        elm.style.color = 'violet'
+        elm.style.color = 'brown'
     }
     function textOrange() {
-        elm.style.color = 'orange'
+        elm.style.color = 'blue'
     }
 }
 
@@ -50,20 +50,20 @@
 
 // 4. Write a JavaScript program to display a random image (clicking on a button) from the following list.
 {
-    let image = document.getElementById('image')
+    let image = document.getElementById('images')
     function image1() {
-        image.style.width = '240px'
-        image.style.height = '150px'
-        image.src ='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiKMxAGFTDWIJp_HNBDxTKVp4HXBa2phQsUw&s'
+        image.style.width = '500px'
+        image.style.height = '200px'
+        image.src ='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmKCyfTyvRoCSlYgX5ZyNd3Ev4nEuSxwyp_t3DrV_3ZZL6KChxvv9IGSymtSQEJqWrzf0&usqp=CAU'
     }
     function image2() {
-        image.style.width = '320px';
-        image.style.height = '195px';
-        image.src = 'https://i.pinimg.com/736x/87/c5/5d/87c55d72acf14521134648f85e938aee.jpg';
+        image.style.width = '500px';
+        image.style.height = '200px';
+        image.src = 'https://i.etsystatic.com/35574085/r/il/386989/4727859216/il_fullxfull.4727859216_rdr4.jpg';
     }
     function image3() {
         image.style.width = '500px';
         image.style.height = '343px';
-        image.src = 'https://random-image-pepebigotes.vercel.app/api/random-image';
+        image.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAiO5LaB5nd06C2ctv_ByvqvIyR1H650ptS6lydIqURMZjAc_3ZcH7wBXDkZ3vVWft4w&usqp=CAU';
     }
 }
