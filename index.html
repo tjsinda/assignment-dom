@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Assignment</title>
+
+    <style>
+        div, form{
+            border: 1px solid rgb(95, 93, 93);
+            margin: 20px;
+            padding: 10px;
+        }
+        button, option, select, div, form, input{
+            font-size: 25px;
+            margin-block: 5px;
+        }
+    </style> 
+
+</head>
+<body>
+    <!-- Question 1 -->
+    <div>
+        <h2>Question 1</h2>
+            <select name="" id="colorSelect">
+            <option>Red</option>
+            <option>Green</option>
+            <option>White</option>
+            <option>Black</option>
+        </select>
+        <button>Click to remove item</button>
+    </div>
+
+    <!-- Question 2 -->
+    <div>
+        <h2>Question 2</h2>
+        <p ></p>
+        <button onclick="textBlue()" style="background-color:purple;">Purple</button>
+        <button onclick="textRed()" style="background-color: Red;">Red</button>
+        <button onclick="textGreen()" style="background-color: Green;">Green</button>
+        <button onclick="textViolet()" style="background-color:brown;">brown</button>
+        <button onclick="textOrange()" style="background-color:  Blue;">Blue</button>
+    </div>
+
+    <div>
+        <h2>Question 2</h2>
+        <p id="textElement">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima fuga magni modi ratione veritatis dolore quas saepe corporis, sint omnis, esse officia autem voluptate, maiores cum dolores. Maiores, aliquid aliquam.</p>
+        <select id="colorSelect2">
+            <option>Red </option>
+            <option>Green</option>
+            <option>Blue</option>
+            <option>Black</option>
+            <option>violet</option>
+        </select>
+        <button onclick="changeColor()">Click</button>
+    </div>
+
+    <!-- Question 3 -->
+    <div>
+        <h2>Question 3</h2>
+        <form id="form1">
+            Enter the name <br>
+            First name: <input type="text" name="fname" value="" id="firstName"><br>
+            Last name: <input type="text" name="lname" value="" id="lastName"><br>
+            <input id="submitButton" type="submit" value="Click to submit" onclick="fsubmit()">
+        </form>
+    </div>
+
+    <!-- Question 4 -->
+    <div>
+        <h2>Question 4</h2>
+        <img id="images" alt="Click the Button to view image"></img>
+        <ul>
+            <li><button onclick="image1()">Image 1</button></li>
+            <li><button onclick="image2()">Image 2</button></li>
+            <li><button onclick="image3()">image 3</button></li>
+        </ul>
+    </div>
+
+</body>
+<script src="./script.js"></script>
+</html>
